@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "PT Serif", serif;
+}
+
+.cont {
+	display: flex;
+	width: 100%;
+	height: 100vh;
+	background-color: #f0f0f0;
+}
+
+.leftCont {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	text-align: center;
+}
+
+.rightCont {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+	text-align: center;
+	background-color: royalblue;
+	color: rgb(255, 255, 255);
+}
+
+h2 {
+	font-size: 2em;
+	margin-bottom: 10px;
+}
+
+p {
+	font-size: 1.2em;
+}
